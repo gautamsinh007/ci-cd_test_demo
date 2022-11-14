@@ -37,5 +37,5 @@ jobs:
    
     - name: Test with pytest
       run: |
-        export PYTHONPATH = demo.py  
+        export PYTHONPATH=src
         pytest
