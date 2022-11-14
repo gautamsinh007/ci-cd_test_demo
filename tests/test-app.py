@@ -2,7 +2,7 @@ from  src import app
  
 
 
-def hello_world():
+def hello():
     assert app.hello_world() == 'HelloWorld'
  
 
